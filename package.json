@@ -1,0 +1,31 @@
+{
+  "name": "appsoluttworkshop",
+  "version": "1.0.0",
+  "description": "## Simple Frontend",
+  "main": "index.ts",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "live-server": "^1.2.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "concurrently \"webpack --watch\" \"live-server dist\" \"cp src/index.html dist/index.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appsolutt-studenforening/AppsoluttWorkshop.git"
+  },
+  "author": "Appsolutt Studentforening",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appsolutt-studenforening/AppsoluttWorkshop/issues"
+  },
+  "homepage": "https://github.com/appsolutt-studenforening/AppsoluttWorkshop#readme"
+}
